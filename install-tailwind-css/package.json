@@ -1,0 +1,19 @@
+{
+  "name": "install-tailwind-css",
+  "version": "1.0.0",
+  "description": "https://tailwindcss.com/docs/installation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./input.css -o ./main/css/main.css --watch",
+    "minify": "npx tailwindcss -o ./main/css/minify.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
